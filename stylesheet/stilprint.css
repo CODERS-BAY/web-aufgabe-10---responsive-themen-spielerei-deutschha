@@ -1,0 +1,36 @@
+@media print{
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    max-width: 800px; 
+}
+h1{
+    font-family:fantasy;
+    font-size:50px;
+    max-width: 150px;
+    text-align: left;
+}
+
+.print{
+    max-width: 50px;
+    background-color: black;
+    margin-left: 200px;
+    margin-top: -80px;
+
+}
+.pi{
+    display: none;
+}
+.pic{
+    display: none;
+}
+.info{
+    font-size:12px;
+}
+article{
+    text-align: center;
+    margin-top: 200px;
+}
+}

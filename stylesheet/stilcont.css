@@ -1,0 +1,52 @@
+:root{
+    --cola: #0B0B3B;
+    --colb: #2E2E2E;
+    --colc: #000000;
+}
+@-ms-viewport {
+    width: device-width;
+}
+@viewport{
+    width: device-width;
+}
+@media screen and (max-width:600px){
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 25%;
+        width:100%;
+        padding:2%;
+    }
+}
+img{
+    margin-left: 2%;
+}
+h1{
+color:snow;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 2%;
+}
+header{
+    background-color:grey
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 35%;
+    width:100%;
+    padding:2%;
+}
+body{
+    background-color:var(--colb) ;
+}
+button{
+    width:400px;
+    font-size: 18px;
+    padding:2%;
+    margin-left:6%;
+}
+label{
+    display: none;
+}

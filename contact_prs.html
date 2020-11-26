@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta cahrset= "UFT-8">
+    <meta name= "contactpage">
+    <meta title="Contact">
+    <link rel="stylesheet" href="stylesheet/stilcont.css">
+</head>
+<body>
+    <header>
+        <img src="images/prs Logo.png" alt="Logo">
+        <h1>Your Way to your play</h1>
+    </header>
+    <form action = "senden.html" method = "GET">   
+        <label class="flexa" >Wunschfarbe wählen:</label>
+        <p>Wunschfarbe wählen:&nbsp;&nbsp; <select class="felxa"></p>
+            <option id="b"> BLUE </option>
+            <option id="g"> GRAY </option>
+            <option id="s"> BLACK</option>
+        </select>
+        <label>Vorname</label> 
+        <p>Vorname:&nbsp;&nbsp;&nbsp;<input type="text" id="vn"></p>
+        <label>Nachname</label> 
+        <p>Nachname:<input type="text" id="nn"></p>
+        <label>EMail</label> 
+        <p>EMail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="mail"></p>
+        <label>Info</label> 
+        <p>Info:&nbsp;&nbsp;<textarea  id="tx" name="tx" rows="5" cols="60"></textarea></p>
+        <button  type="button" text="Send" id="send">Senden</button>
+
+    </form>
+</body>
